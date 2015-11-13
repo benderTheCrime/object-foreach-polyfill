@@ -1,6 +1,8 @@
 # object-foreach-polyfill [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > A polyfill for Object.prototype.forEach
 
+**NOTE**: I know it's not really a polyfill because it doesn't exist natively in JavaScript, but it's a useful utility and it's not unheard of that we will see this in a future specification.
+
 ## Installation
 
 ```sh
