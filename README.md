@@ -10,9 +10,11 @@ $ npm install --save object-foreach-polyfill
 ## Usage
 
 ```js
-var objectForeachPolyfill = require('object-foreach-polyfill');
+var objectForEachPolyfill = require('object-foreach-polyfill');
 
-objectForeachPolyfill('Rainbow');
+objectForeachPolyfill(function(v, k) {
+    return true;
+});
 ```
 ## License
 
